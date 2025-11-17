@@ -56,9 +56,9 @@
   --jf-palette-warning-lightChannel: 255 183 77;
   --jf-palette-warning-darkChannel: 245 124 0;
   --jf-palette-warning-contrastTextChannel: 0 0 0;
-  --jf-palette-info-main: #29b6f6;
-  --jf-palette-info-light: #4fc3f7;
-  --jf-palette-info-dark: #0288d1;
+  --jf-palette-info-main: var(--sky);
+  --jf-palette-info-light: var(--sapphire);
+  --jf-palette-info-dark: var(--blue);
   --jf-palette-info-contrastText: rgba(var(--main-background), 0.87);
   --jf-palette-info-mainChannel: 41 182 246;
   --jf-palette-info-lightChannel: 79 195 247;
