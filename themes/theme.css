@@ -1,5 +1,5 @@
 :root {
-  --jf-palette-primary-main: var(--main-background);
+  --jf-palette-primary-main: var(--main-background) !important;
   --jf-palette-primary-light: var(--main-color);
   --jf-palette-primary-dark: rgb(0, 114, 154);
   --jf-palette-primary-contrastText: var(--main-text);
@@ -157,7 +157,7 @@
   --jf-opacity-switchTrackDisabled: 0.2;
   --jf-opacity-switchTrack: 0.3;
 }
-:root [data-theme="dark"] {
+[data-theme="dark"] {
   --jf-overlays-0: none;
   --jf-overlays-1: linear-gradient(rgba(255 255 255 / 0.051), rgba(255 255 255 / 0.051));
   --jf-overlays-2: linear-gradient(rgba(255 255 255 / 0.069), rgba(255 255 255 / 0.069));
@@ -186,6 +186,7 @@
   --jf-palette-AppBar-darkBg: var(--jf-palette-background-paper, #202020);
   --jf-palette-AppBar-darkColor: var(--main-text);
 }
+
 * {
   scrollbar-color: var(--hover-background) var(--second-background);
 }
